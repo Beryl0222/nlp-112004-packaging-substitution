@@ -1,0 +1,66 @@
+[
+  {
+    "id": "b17",
+    "component": "胶带",
+    "product": "白鹭 H",
+    "recipe": "A1",
+    "units": 2,
+    "shelf": "常温库"
+  },
+  {
+    "id": "b29",
+    "component": "胶带",
+    "product": "白鹭 H",
+    "recipe": "A2",
+    "units": 3,
+    "shelf": "冷线库"
+  },
+  {
+    "id": "f41",
+    "component": "内膜",
+    "product": "泊膜 L",
+    "recipe": "F2",
+    "units": 2,
+    "shelf": "冷线库"
+  },
+  {
+    "id": "f16",
+    "component": "内膜",
+    "product": "泊膜 L",
+    "recipe": "F1",
+    "units": 3,
+    "shelf": "常温库"
+  },
+  {
+    "id": "t01",
+    "component": "覆膜",
+    "product": "盖片 D",
+    "recipe": "D1",
+    "units": 1,
+    "shelf": "冷线库"
+  },
+  {
+    "id": "s81",
+    "component": "纸袋",
+    "product": "岗纸 K",
+    "recipe": "K2",
+    "units": 3,
+    "shelf": "常温库"
+  },
+  {
+    "id": "b42",
+    "component": "胶带",
+    "product": "枫堤",
+    "recipe": "D2",
+    "units": 1,
+    "shelf": "冷线库"
+  },
+  {
+    "id": "f52",
+    "component": "内膜",
+    "product": "秋漪",
+    "recipe": "F5",
+    "units": 1,
+    "shelf": "冷线库"
+  }
+]

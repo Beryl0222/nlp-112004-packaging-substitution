@@ -1,0 +1,50 @@
+[
+  {
+    "id": "p1",
+    "route": "霜岔",
+    "priority": 4,
+    "limitKg": 0.8,
+    "condition": "冷车内施胶，最低 −10°C",
+    "laterUse": "23:20 截止，必须同时出一套内膜和胶带。"
+  },
+  {
+    "id": "p2",
+    "route": "霜岔",
+    "priority": 3,
+    "limitKg": 0.89,
+    "condition": "冷车内施胶，最低 −10°C",
+    "laterUse": "与 p1 同车。缺一件可走下一趟。"
+  },
+  {
+    "id": "p3",
+    "route": "霜岔",
+    "priority": 2,
+    "limitKg": 0.9,
+    "condition": "冷车内施胶，最低 −8°C",
+    "laterUse": "怕压，不得用单独内膜。"
+  },
+  {
+    "id": "p4",
+    "route": "南岗",
+    "priority": 3,
+    "limitKg": 1.1,
+    "condition": "室温施胶后入冷车",
+    "laterUse": "封口前有双折边。"
+  },
+  {
+    "id": "p5",
+    "route": "南岗",
+    "priority": 1,
+    "limitKg": 1.18,
+    "condition": "室温施胶后入冷车",
+    "laterUse": "另有原包装可供选。"
+  },
+  {
+    "id": "p6",
+    "route": "渡口",
+    "priority": 2,
+    "limitKg": 0.76,
+    "condition": "冷车内施胶，最低 −10°C",
+    "laterUse": "短趟，内膜不可漏。"
+  }
+]

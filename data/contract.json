@@ -1,0 +1,53 @@
+{
+  "batches": {
+    "columns": {
+      "id": "string",
+      "component": "string",
+      "product": "string",
+      "recipe": "string",
+      "units": "integer",
+      "shelf": "string"
+    },
+    "links": {}
+  },
+  "reports": {
+    "columns": {
+      "id": "string",
+      "author": "string",
+      "date": "string",
+      "batchIds": "array",
+      "revises": "string?",
+      "text": "string"
+    },
+    "links": {
+      "batchIds": "batches",
+      "revises": "reports"
+    }
+  },
+  "parcels": {
+    "columns": {
+      "id": "string",
+      "route": "string",
+      "priority": "integer",
+      "limitKg": "number",
+      "condition": "string",
+      "laterUse": "string"
+    },
+    "links": {}
+  },
+  "picklists": {
+    "columns": {
+      "id": "string",
+      "parcel": "string",
+      "stage": "string",
+      "components": "array",
+      "reports": "array",
+      "time": "string"
+    },
+    "links": {
+      "parcel": "parcels",
+      "components": "batches",
+      "reports": "reports"
+    }
+  }
+}
